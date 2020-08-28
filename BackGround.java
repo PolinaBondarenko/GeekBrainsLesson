@@ -18,10 +18,7 @@ public void setBackGround(GameCanvas canvas) {
         case 40: canvas.setBackground(Color.BLUE);
         break;
         case 50: canvas.setBackground(Color.GRAY);
+        break;
     }
-    if (seconds > 30) canvas.setBackground(Color.CYAN);
-    else if(seconds > 20) canvas.setBackground(Color.ORANGE);
-    else if (seconds > 10) canvas.setBackground(Color.BLUE);
 }
-
 }
